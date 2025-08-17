@@ -9,3 +9,17 @@ function getComputerChoice() {
         return "scissors";
     }
 }
+
+function getHumanChoice() {
+    const choice = prompt("Rock, paper or scissors?");
+
+    if (choice === "rock") {
+        return "rock";
+    } else if (choice === "paper") {
+        return "paper";
+    } else if (choice === "scissors") {
+        return "scissors";
+    }
+}
+
+
